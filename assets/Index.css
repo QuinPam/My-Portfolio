@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family:monospace;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 30px 20px 70px;
+    background-color: rgb(100, 19, 76);
+    transition: 0.5s ease;
+}

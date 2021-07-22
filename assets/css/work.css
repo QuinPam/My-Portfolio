@@ -1,0 +1,63 @@
+/* Reset Default Setting*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* BOX SECTION */
+.my-services{
+    display: flex;
+    /*gap: 60px*/;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+    
+}
+
+.box{
+    background-color:rgb(141, 36, 97); 
+    color: white;
+    height: 550px;
+    width: 800px;
+    padding: 50px;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.fab{
+    color: rgb(245, 190, 9);
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.email-section{
+   margin: 20px 180px;
+   
+
+}
+
+/* BUTTON SECTION */
+.submit-button {
+    
+    font-size: 18px ;
+    background-color: rgb(245, 190, 9);
+    color: black;
+    border: 1px solid rgb(245, 190, 9);
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: 100;
+    margin: 20px 100px;
+    
+}
+
+.submit-button:hover {
+    font-weight: 600;
+
+}
+
