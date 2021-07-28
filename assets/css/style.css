@@ -11,9 +11,6 @@ body{
     background-image: url(./../img/istockphoto-1136461807-170667a.jpg);
     background-position: center right;
     background-size: cover;
-   
- 
-
 
 }
 
@@ -23,17 +20,10 @@ section{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 100px ;
-    background-color: rgb(82, 17, 60);
-    transition: 0.5s ease;
-    
-} */
 
 .hamburger-wrap{
     display: none;
+    color: white;
 }
 
 .nav-items .nav-links{
@@ -57,7 +47,6 @@ section{
 }
 
 
-
 /* INTRODUCTION SESSION */
 .intro{
     width: 50%;
@@ -78,7 +67,35 @@ section{
     padding: 8px;
     color: white;
     border-radius: 10px 10px 10px 0px;
+    animation-name: hey;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+
+
 }
+
+@keyframes hey {
+    
+        0%   {
+            background-color:red; right:0px;
+            top:0px;
+        
+        }
+        25%  {
+            background-color:yellow; right:200px;
+            top:25px
+        }
+        50%  {
+            background-color:blue; right:100px;
+            top:50px
+        }
+        75%  {background-color:green; right:50px;}
+        100% {background-color:red; right:0px;}
+      }
+
+
+
+
 /* BUTTON SECTION */
 .submit-button {
     align-content: center;
@@ -148,9 +165,7 @@ footer, i{
     display: grid ;
     size: 40px;
     color: black;
-    
-  
-    
+
 }
 
 i{
@@ -169,7 +184,7 @@ i{
         padding: 20px 50px ;
     }
 
-    .hamburger-wrap {
+    .hamburger-wrap{
         display: block;
         cursor: pointer;
         font-size: 25px;
@@ -193,13 +208,15 @@ i{
     }
 
     .box-section{
-        display:block;
-       
+        display: grid;
+        margin-left: 30px;
+        
     }
 
     .box{
-        justify-items: center;
-        margin-left: 0rem;
+        padding: 20px;
+        margin-top: 10px;
+      
     }
     
 }

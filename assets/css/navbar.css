@@ -1,6 +1,7 @@
 body{
-    background-color: white;
-    
+    background-image: url(./../img/istockphoto-1136461807-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav{
@@ -14,6 +15,7 @@ nav{
 
 .hamburger-wrap{
     display: none;
+    color: white;
 }
 
 .nav-items .nav-links{
@@ -27,7 +29,11 @@ nav{
 .nav-items .nav-links:hover{
     background-color: white;
     color: rgb(141, 36, 97);
+    /* width: 40px; */
+    /* padding */
+   
     border-radius: 5px;
+    
 }
 
 .logo-wrap .logo{
@@ -35,8 +41,6 @@ nav{
     color: white;
    
 }
-
-
 
 /* MEDIA QUERY */
 @media (max-width: 900px){
@@ -54,7 +58,9 @@ nav{
 
     }
     
-   
+    .nav-items{
+        display: none ;
+    }
 
     .open-nav-items{
         display: flex;
@@ -69,6 +75,4 @@ nav{
 
     
 }
-
-
 
