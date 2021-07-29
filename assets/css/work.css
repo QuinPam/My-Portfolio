@@ -1,47 +1,50 @@
 /* Reset Default Setting*/
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
-/* BOX SECTION */
-.my-services{
-    display: flex;
-    /*gap: 60px*/;
-    justify-content: center;
+body{
+    background-image: url(./../img/istockphoto-1136461807-170667a.jpg);
+}
+main{
     
-    margin-bottom: 20px;
-    
-}
+    width: 80%;
+    margin:auto;
 
-.box{
-    background-color:rgb(141, 36, 97); 
-    color: white;
-    height: 550px;
-    width: 800px;
-    padding: 50px;
-    margin-top: 5px;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.fab{
-    color: rgb(245, 190, 9);
-    font-size: 25px;
-    justify-content: space-between;
-}
-
-.email-section{
-   margin: 20px 180px;
    
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.project{
+    background-color: rgb(141, 36, 97);
+    /* flex: 1; */
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    height: 200px;
+    font-size: 20px;
+    line-height: 1.2;
 
 }
 
-/* BUTTON SECTION */
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.email-section {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
 .submit-button {
     
     font-size: 18px ;
@@ -60,4 +63,64 @@
     font-weight: 600;
 
 }
+ 
 
+ 
+@media(min-width:800px) {
+    main {
+        width:100%;
+    }
+    /* .container{
+        width:80%;
+
+    } */
+    .project{
+        max-width:50%;
+        margin-right: 10px;
+        flex-basis: 50%;
+    }
+    .container{
+        width:90%;
+        flex-direction: row;
+        margin:auto;
+    
+}
+}
+/* BOX SECTION */
+ /* .my-services{
+    display: flex; */
+    /* gap: 60px; */
+    /* justify-content: center;
+    
+    
+    
+} 
+
+
+.fab{
+    color: rgb(245, 190, 9);
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+
+
+/* BUTTON SECTION */
+/* .submit-button {
+    
+    font-size: 18px ;
+    background-color: rgb(245, 190, 9);
+    color: black;
+    border: 1px solid rgb(245, 190, 9);
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: 100;
+    margin: 20px 100px;
+    
+}
+
+.submit-button:hover {
+    font-weight: 600;
+
+} */ 

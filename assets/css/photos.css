@@ -3,11 +3,14 @@
     margin: 0px;
 }
 
+body{
+    background-color: black;
+}
+
 h1{
     font-size: 40px;
     padding: 20px;
     text-align:  center;
-
 }
 
 .memories >.week-1 {
@@ -17,14 +20,11 @@ h1{
     grid-gap: 5px; 
     padding: 10px;
     padding-left: 90px;
-    
-    
   }
   
  .week-1{
     border-radius: 10px;
-     padding: 5px;
-    
+     padding: 5px; 
 }  
 
 img{

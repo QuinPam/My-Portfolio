@@ -11,9 +11,12 @@ main{
 }
 
 .about {
-    display: flex;
+    width:85%;
+    margin: 70px auto;
+    /* margin-top: 70px; */
+    /* display: flex;
     margin-top: 30px;
-    align-items: center
+    align-items: center */
 }
 
 .about-image, img{
@@ -22,13 +25,29 @@ main{
     border-radius: 50%;
 }
 
+.about-image{
+    flex-basis: 60%;
+}
+
 .about-description {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
-    padding: 50px;
-    align-content: left;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 70px;
 }
 
+.description{
+    flex-basis: 40%;
+    margin-right: 5rem;
+
+}
+
+.description p{
+    text-align: justify;
+    
+}
 
  /* MEDIA QUERY */
 @media (max-width: 900px){
@@ -60,5 +79,41 @@ main{
     .nav-links{
         text-align: right;
     }
+   
+.about {
+    width:90%;
+    margin: auto;
+    /* margin-top: 70px; */
+    /* display: flex;
+    margin-top: 30px;
+    align-items: center */
+}
 
+.about-image, img{
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.about-image{
+    flex-basis: 60%;
+
+}
+
+.about-description {
+    flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.description{
+    flex-basis: 40%;
+    margin-bottom: 3rem;
+    margin-right: initial;
+
+}
+
+.description p{
+    text-align: justify;
+   
 }
