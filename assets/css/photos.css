@@ -3,6 +3,7 @@
     margin: 0px;
 }
 
+
 body{
     background-color: black;
 }
@@ -30,3 +31,15 @@ h1{
 img{
     border-radius: 20px;
 }
+
+/* HAMBURGER SECTION
+
+.hamburger-wrap{
+    display: none;
+    color: white;
+}
+
+.hamburger-wrap i{
+    color: white;
+} */
+
