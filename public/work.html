@@ -8,9 +8,13 @@
     <!-- CSS STYLES -->
     <link rel="stylesheet" href="./../assets/css/navbar.css">
     <link rel="stylesheet" href="./../assets/css/work.css">
+    <link rel="stylesheet" href="./../assets/css/footer.css">
 
     <!-- FONT AWESOME ICON -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    />
     <title>My Skills</title>
 </head>
 <body>
@@ -34,6 +38,11 @@
     </header>
     <main>
         <!-- MY SERVICES SECTION -->
+        <div id="bTtop">
+            <a href="#">
+                <i class="fas fa-3x fa-arrow-up"></i> 
+            </a>
+        </div>
         <header>
         <h1> PROJECTS: </h1>  
         </header>  
@@ -41,16 +50,20 @@
             <div class="project">
                 <h3> Booking Form</h3>
                 <div class="project-info">             
-                    <p>Built an Ecommerce Booking Form using: HTML, CSS, Javascript, Git/ GitHub and Hosted using Netlify.</p>
-                    <a href="https://procleaner-by-pam.netlify.app/"> Click to view</a>
+                    <p>Built an E-commerce Booking Form using: HTML, CSS, Javascript, Git/ GitHub and Hosted using Netlify.</p>
+                    <button class="submit-button" style="align-content: center;">
+                        <a href="https://procleaner-by-pam.netlify.app/" target="_blank"> View</a>
+                    </button>
                 </div>  
             </div>
 
             <div class="project">
                 <h3>E-commerce Website</h3>
                 <div>  
-                    <p>Built an Ecommerce website for TiideLab Pre-fellowship Project using : HTML, CSS, Javascript, Git/ Github and Hosted using Netlify.</p>
-                    <a href="https://burgerquin.netlify.app/"> Click to view</a>
+                    <p>Built an E-commerce website for TiideLab Pre-fellowship Project using : HTML, CSS, Javascript, Git/ Github and Hosted using Netlify.</p>
+                    <button class="submit-button view2" style="align-content: center;">
+                        <a href="https://burgerquin.netlify.app/" target="_blank"> View</a>
+                    </button>
                 </div>
             </div>
             
@@ -58,7 +71,9 @@
                 <h3>Portfolio</h3>
                  <div>    
                     <p>Built a web based portfolio using: HTML, CSS, Javascript, Git/ GitHub and Hosted using Netlify.</p>
-                   <a href="https://quin-pam.netlify.app/"> Click to view</a>
+                    <button class="submit-button" style="align-content: center;">
+                        <a href="https://quin-pam.netlify.app/" target="_blank"> View</a>
+                    </button>
                  </div>
             </div>
         </div>
@@ -67,15 +82,23 @@
 
                 <button class="submit-button" style="align-content: center;">Email Me</button>
         </div>
+
     </main>
- <!-- FOOTER SECTION-->
-    <footer>
+
+     <!-- FOOTER SECTION-->
+    <footer class="container__footer">
         <h3> Social Media: </h3><br>
-        <div>
-            <a href="https://www.linkedin.com/in/pamela-odeh-899639153/"><i class="fab fa-2x fa-linkedin">LinkedIn</i></a>  
-            <a href="https://github.com/QuinPam"><i class="fab fa-2x fa-github-square">Github</i></a> 
+        <div class="icons">
+            <a href="https://drive.google.com/file/d/15apJv9z_DP1LZccx_YdlD-_NgsV6vAMk/view?usp=sharing" target="_blank"><i class="fas fa-2x fa-file"> Resume</i></a>
+            <a href="https://www.linkedin.com/in/pamela-odeh-899639153/" target="_blank"><i class="fab fa-2x fa-linkedin"> LinkedIn</i></a> 
+            <a href="https://github.com/QuinPam" target="_blank"><i class="fab fa-2x fa-github-square"> Github</i></a> 
+            
+        </div>
+        <div >
+            <p>Made by Pamela Odeh &#169 Copyright. </p>
         </div>
     </footer>
+
     <!-- HAMBURGER LOGO -->
 
     <script src="./../assets/js/hamburger.js"></script>

@@ -1,0 +1,37 @@
+/* Footer */
+.container__footer {
+  text-align: center;
+  padding: 10px;
+  font-size: x-large;
+  background: rgb(141, 36, 97);
+  color: white;
+}
+
+.container__footer .icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container__footer .icons i {
+  color: white;
+}
+
+.fa-file:hover {
+  color: skyblue !important;
+  transition: ease-in-out;
+}
+
+.fa-linkedin:hover {
+  color: blue !important;
+  transition: ease-in-out;
+}
+
+.fa-github-square:hover {
+  color: black !important;
+  transition: ease-in-out;
+}

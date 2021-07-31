@@ -9,8 +9,7 @@ body{
     background-size: cover;
 }
 
-
-
+/* HAMBURGER SECTION */
 .hamburger-wrap{
     display: none;
     color: white;
@@ -25,7 +24,6 @@ body{
     padding: 20px;
     text-decoration: none;
     color: white;
-    
 }
 
 .nav-items .nav-links:hover{
@@ -66,18 +64,48 @@ nav{
 .nav-items .nav-links:hover{
     background-color: white;
     color: rgb(141, 36, 97);
-    /* width: 40px; */
-    /* padding */
-   
     border-radius: 5px;
     
 }
 
 .logo-wrap .logo{
     font-size: 30px;
+    color: white;  
+}
+
+a {
+    text-decoration: none;
+}
+
+/* FOOTER SECTION */
+footer{
+    background-color:  rgb(141, 36, 97);
+    padding: 30px;
+    display: flex;
+    justify-content:center;
+    font-size: 18px;
     color: white;
+}
+
+footer, h3{
+    color: white;
+}
+
+footer, i{
+    display: grid ;
+    size: 30px;
+    color: white;  
+    
+}
+
+i{
+    margin-top: 7px;
+    gap: 30px;
+    padding-right: 10px;
+    padding-bottom: 20px;
    
 }
+
 
 /* MEDIA QUERY */
 @media (max-width: 900px){
