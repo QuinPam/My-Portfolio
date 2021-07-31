@@ -54,7 +54,7 @@ div {
 @media (max-width: 980px) {
   .week-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(250px, 250px);
     gap: 10px 10px;
     grid-auto-flow: row;
@@ -69,16 +69,12 @@ div {
   .s-wide {
     grid-column: auto/span 2;
   }
-
-  h2 {
-  font-size: 40px;
-}
 }
 
-/* @media (max-width: 680px) {
-  .container__main {
+@media (max-width: 680px) {
+  .week-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-auto-rows: minmax(200px, 200px);
     gap: 10px 10px;
     grid-auto-flow: row;
@@ -93,7 +89,7 @@ div {
   .ss-wide {
     grid-column: auto/span 2;
   }
-} */
+} 
 
 /* .memories > .week-1 {
   display: grid;
