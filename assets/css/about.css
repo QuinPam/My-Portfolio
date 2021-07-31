@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
 main{
     text-align-last: center;
     color: black;
@@ -13,10 +19,6 @@ main{
 .about {
     width:85%;
     margin: 70px auto;
-    /* margin-top: 70px; */
-    /* display: flex;
-    margin-top: 30px;
-    align-items: center */
 }
 
 .about-image, img{
@@ -47,6 +49,19 @@ main{
 .description p{
     text-align: justify;
     
+}
+
+#bTtop {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+#bTtop:hover {
+  color: #000 !important;
 }
 
  /* MEDIA QUERY */
@@ -83,10 +98,6 @@ main{
 .about {
     width:90%;
     margin: auto;
-    /* margin-top: 70px; */
-    /* display: flex;
-    margin-top: 30px;
-    align-items: center */
 }
 
 .about-image, img{
@@ -110,10 +121,9 @@ main{
     flex-basis: 40%;
     margin-bottom: 3rem;
     margin-right: initial;
-
 }
 
 .description p{
     text-align: justify;
-   
+}
 }

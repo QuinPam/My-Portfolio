@@ -73,6 +73,10 @@ nav{
     color: white;  
 }
 
+a {
+    text-decoration: none;
+}
+
 /* FOOTER SECTION */
 footer{
     background-color:  rgb(141, 36, 97);
@@ -90,13 +94,12 @@ footer, h3{
 footer, i{
     display: grid ;
     size: 30px;
-    color: black;  
+    color: white;  
     
 }
 
 i{
     margin-top: 7px;
-    /* font-size:10px; */
     gap: 30px;
     padding-right: 10px;
     padding-bottom: 20px;
