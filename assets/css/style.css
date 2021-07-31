@@ -78,7 +78,7 @@ section{
   
 }
 
-.box-section > div > li {
+/* .box-section > div > li {
     animation-name: html;
     animation-duration: 5s;
     animation-timing-function: ease-in;
@@ -106,7 +106,7 @@ section{
         100% {
             color: rgb(245, 190, 9); top:0px;
              right:0px;}
-      }
+      } */
 
 
 
